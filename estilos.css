@@ -1,0 +1,169 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('img/galaxia.jpg') center/cover fixed; /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen de fondo */
+  }
+  
+  .mi-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente con un tono negro más claro */
+    color: white; /* Color del texto */
+    padding: 20px;
+  }
+  
+  .izquierda {
+    width: 50%;
+  }
+  
+  .titulo-escalera {
+    font-size: 1em;
+  }
+  
+  .titulo-escalera span {
+    display: block;
+  }
+  
+  .linea2 {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+  
+  .linea3 {
+    margin-left: 110px;
+  }
+  
+  .derecha {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .seccion-contenido {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contenido-planetas {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px; /* Ajusta según sea necesario */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 800px;
+    margin-right: 40px;
+    
+  }
+  
+  .videos-derecha {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .videos-derecha a {
+    display: block;
+  }
+  
+  .videos-derecha video {
+    width: 350px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+
+  .contenido-adicional {
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.boton-explorar {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.seccion-dos {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px; /* Ajusta según sea necesario */
+    border-radius: 40px;
+    margin: 0 30px;
+    margin-top: 20px;
+}
+
+.contenedor-transparente {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.conten-planetas {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.conten-planetas img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto-planeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-planeta h2 {
+    margin-bottom: 10px;
+}
+
+.video-seccion-dos {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.video-seccion-dos video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
