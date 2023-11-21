@@ -5,57 +5,6 @@ body {
     background: url('img/galaxia.jpg') center/cover fixed; /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen de fondo */
   }
   
-  .mi-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente con un tono negro más claro */
-    color: white; /* Color del texto */
-    padding: 20px;
-  }
-  
-  .izquierda {
-    width: 50%;
-  }
-  
-  .titulo-escalera {
-    font-size: 1em;
-  }
-  
-  .titulo-escalera span {
-    display: block;
-  }
-  
-  .linea2 {
-    margin-left: 25px;
-    font-size: 25px;
-  }
-  
-  .linea3 {
-    margin-left: 110px;
-  }
-  
-  .derecha {
-    display: flex;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-  }
-
   /* Estilos adicionales para la página de la galería */
 .seccion-galeria {
     margin-top: 10px;

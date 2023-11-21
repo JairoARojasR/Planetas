@@ -5,54 +5,9 @@ body {
     background: url('img/galaxia.jpg') center/cover fixed;
 }
 
-.mi-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px;
-}
-
-.izquierda {
-    width: 50%;
-}
-
-.titulo-escalera {
-    font-size: 1em;
-}
-
-.titulo-escalera span {
-    display: block;
-}
-
-.derecha {
-    display: flex;
-    align-items: center;
-    margin-right: 25px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-}
-
-/* Estilos adicionales para la página de la galería */
 .seccion-galeria {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    grid-template-columns: 1fr 1fr; 
     gap: 20px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -66,11 +21,30 @@ nav ul li a {
     gap: 20px;
 }
 
+.planeta h2{
+    font-family: 'Amasis';
+    letter-spacing: 0.25em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.planeta p{
+    font-family: 'Aptos';
+    font-size: 13px;
+}
+
 .planeta {
     text-align: center;
 }
 
 .planeta img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.planeta-saturno {
     width: 120px;
     height: 120px;
     border-radius: 10px;

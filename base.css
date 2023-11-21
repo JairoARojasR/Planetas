@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Aptos';
+    src: url("img/Fuentes/aptos.ttf"), url("img/Fuentes/aptos-semibold.ttf"), url("img/Fuentes/aptos-light.ttf"), url("img/Fuentes/aptos-light-italic.ttf"), url("img/Fuentes/aptos-italic.ttf"), url("img/Fuentes/aptos-bold.ttf");
+  }
+  
+  @font-face {
+    font-family: 'Amasis';
+    src: url("img/Fuentes/Amasis\ MT\ Std\ Black.otf");
+  }
+  
+  @font-face {
+    font-family: 'Amasis-medium';
+    src: url("img/Fuentes/Amasis\ MT\ Std\ Medium.otf");
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('img/Imagen1.png') center/cover fixed;
+    min-height: 100vh;
+  }
+  
+  .mi-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+  }
+  
+  .izquierda {
+    width: 50%;
+  }
+  
+  .titulo-escalera {
+    font-size: 1em;
+    font-family: 'Amasis';
+    line-height: 18px;
+    color: #fff;
+  }
+  
+  .titulo-escalera span {
+    display: block;
+    font-family: 'Amasis';
+    padding-left: 25px;
+  }
+  
+  .linea2 {
+    margin-left: 15px;
+    font-size: 25px;
+    letter-spacing: 0.50rem;
+    font-style: italic;
+  }
+  
+  .linea3 {
+    margin-left: 140px;
+  }
+  
+  .derecha {
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+  }
+  
+  .contenedor-titulo {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .titulo {
+    font-size: 2.5em;
+    font-family: 'Amasis';
+    line-height: 40px;
+    color: #fff;
+    margin: 10px 0 0 0;
+  }
+  
+  .titulo span {
+    display: block;
+    font-family: 'Amasis';
+    padding-left: 50px;
+  }
+  
+  .line2 {
+    margin-left: 25px;
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-style: italic;
+  }
+  
+  .line3 {
+    margin-left: 222px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  .footer {
+    background-color: rgba(0, 0, 0, 0.65);
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+  }
+  
+  .footer a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 0 15px 0 10px;
+  }
